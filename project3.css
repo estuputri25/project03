@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: optima;
+}
+  
+
+li {
+    list-style:none;
+    float:left;
+    padding:33px 20px;
+    cursor: pointer;
+}
+
+.container {
+    width:1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    color:white;
+    background-image:url(./WhatsApp\ Image\ 2021-09-22\ at\ 10.22.10.jpeg);
+    background-size:cover;
+    text-align:center;
+}
+
+.top-wrapper h1 {
+    font-size:45px;
+    letter-spacing:5px;
+    margin-bottom:10px;
+}
+
+.top-wrapper p {
+    margin-bottom:3px;
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+    padding:12px 24px;
+    color:white;
+    display:inline-block;
+    opacity:0.8;
+    background-color: tomato;
+    border-radius: 8px;
+}
+
+.btn-wrapper a {
+    color:white;
+}
+
+.btn-wrapper:hover {
+    opacity:1
+}
+
+header {
+    height:90px;
+    width:100%;
+    background-color: tomato;
+    color:white;
+}
+  
+.header-logo {
+    float: left;
+    font-size: 40px;
+    padding:20px 30px;
+}  
+
+.item-wrapper {
+    height:500px;
+    padding-bottom:80px;
+    background-color: white;
+}
+  
+.heading {
+    padding-top:60px;
+    padding-bottom:30px;
+    color:black;
+}
+  
+.heading h2 {
+    font-weight:normal;
+}
+
+.item {
+    float:left;
+    margin-right: 40px;
+}
+
+.item-icon p {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.message {
+    background-color:tomato;
+    padding:15px 40px;
+}
+  
+.heading h3 {
+    font-weight:normal;
+}
+
+.message-wrapper {
+    border-bottom:1px solid #eee;
+    padding-bottom:80px;
+    text-align:center;
+  }
+  
+.message {
+    padding: 15px 40px;
+    background-color: tomato;
+    cursor:pointer;
+    border-radius: 8px;
+    display:inline-block;
+    box-shadow:0px 7px red;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+.message:active {
+    box-shadow:none;
+    position:relative;
+    top:7px;
+}
+
+footer {
+    background-color:tomato;
+    color:#fff;
+    height: 120px;
+    padding:40px;
+}
+  
+
+.footer-logo {
+    font-size:32px;
+    float:left;
+    padding-top: 40px;
+}
+  
+  
+.footer-list li {
+    padding-bottom:20px;
+    float:right;
+}
